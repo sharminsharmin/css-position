@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+   margin: auto;
+   width: 1150px;
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+margin-top: 20px;
+align-items: center;
+grid-gap: 10px;
+}
+.cartoon4 img{
+    width: 250px;
+}
+
+.title2{
+    border: 1px solid  black;
+   height: 300px;
+   
+}
+.bird3{
+    border: 1px solid  black;
+    height: 300px;
+}
+.cartoon4{
+    border: 1px solid  black;
+    height: 300px;
+}
+.hero5{
+    border: 1px solid  black;
+    height: 300px;
+}
+.outline{
+    border: 1px solid  black;
+    height: 300px;
+}
+.box img{
+    height: 250px; 
+}
+.hero5 img{
+    height: 250px;
+}
+
+.details{
+    position: absolute;
+    top: 70%;
+    transform: translatey(90px);
+    left: 20px;
+    transition: all 0.3s;
+}
+.box{
+    border: 1px solid  black;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.box:hover .details{
+    transform: translatey(0);
+}
+.box:hover img{
+    filter: contrast(200%);
+
+}
+.btn{
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: cadetblue;
+ color: bisque;
+ border: transparent;
+ margin-top: 10px;
+ cursor: pointer;
+}
+.title2{
+    position: relative;
+    overflow: hidden;
+}
+.info{
+    position: absolute;
+  top: 60%;
+    left: 60px;
+    transform: translatex(-355px);
+    transition: all 0.9s;
+color: blue;
+}
+.title2 img{
+    padding: 40px 50px;
+}
+.box img{
+  
+    padding: 30px 100px ;
+}
+.title2:hover .info{
+    transform: translate(0);
+}
+.submit{
+    padding: 8px 20px;
+    background-color: orange;
+    border: 3px solid red;
+   margin-top: 10px;
+   border-radius: 20px;
+color: darkorchid;
+cursor: pointer;
+}
+.title2:hover img{
+    filter: hue-rotate(90deg);
+}
+
+
+.bird3{
+    position: relative;
+    overflow: hidden;
+
+}
+.lable{
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translatex(355px);
+transition: all 0.3s;
+color: darkred;
+}
+.bird3:hover .lable{
+    transform: translatex(0);
+}
+.subcribe{
+padding: 8px 20px;
+background-color: crimson;
+color: white;
+border: transparent;
+margin-top: 10px;
+cursor: pointer;
+}
+.bird3 img{
+    padding: 30px 60px ;
+}
+.bird3:hover img{
+    filter: opacity(30%);
+}
+.cartoon4{
+    position: relative;
+    overflow: hidden;
+}
+.text{
+    position: absolute;
+    top: 70%;
+    left: 40px;
+    transform: translatey(100px);
+    transition: all 0.3s;
+color: darkslateblue;
+}
+.cartoon4:hover .text{
+    transform: translatey(0);
+    left: 20%;
+    top: 50%;
+}
+.like{
+    padding: 10px 40px;
+    background-color: darkgreen;
+    border-radius: 20px;
+color: azure;
+border: transparent;
+margin-top: 10px;
+cursor: pointer;
+}
+.cartoon4:hover img{
+    filter: drop-shadow(8px 8px 10px green);
+}
+.hero5{
+    position: relative;
+    overflow: hidden;
+}
+.texted{
+    position: absolute;
+ color: darkorchid;
+ left: 20%;
+ top:40%;
+transform: translatey(200px);
+transition: all 0.5s;
+}
+.hero5:hover .texted{
+    transform: translatey(0);
+ 
+   top: 0;
+}
+.follow{
+    padding: 10px 30px;
+    background-color: brown;
+    color: whitesmoke;
+    border-radius: 40px;
+    border: 3px solid green;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.hero5:hover img{
+    filter: hue-rotate(180deg);
+}
+.hero5 img{
+    padding: 30px 60px ;
+}
+.outline{
+    position: relative;
+    overflow: hidden;
+  
+}
+.shift{
+    position: absolute;
+    top: 60%;
+    left: 50px;
+    transform: translatex(350px);
+ color: red;
+   transition: all 0.7s;
+}
+.outline img{
+    padding: 30px 60px ;
+}
+.outline:hover .shift{
+    transform: translatex(0);
+}
+.jelly{
+    padding: 8px 20px;
+  background-color: darkmagenta;
+  color: blueviolet;
+font-weight: 900;
+border-radius: 20px;
+border: 1px solid blue;
+margin-top: 10px;
+cursor: pointer;
+}
+.outline:hover img{
+    filter: hue-rotate(90deg);
+}
